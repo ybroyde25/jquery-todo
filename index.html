@@ -4,6 +4,8 @@
 <head>
     <title>Todo List</title>
     <link rel="stylesheet" type="text/css" href="assets/css/todo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -13,12 +15,12 @@
 
 <body>
 <div id="container">
-  <h1>Todo-List</h1>
-  <input type="text">
+  <h1>Todo-List<i class="fa fa-pencil" aria-hidden="true"></i></h1>
+  <input type="text" placeholder="Add your Todo">
   <ul>
-    <li><span>x</span> Go to Grocery</li>
-    <li><span>x</span> Pick up cleaners</li>
-     <li><span>x</span> Buy new light</li>
+    <li><span><i class="fa fa-trash" aria-hidden="true"></i></span>Go shopping </li>
+  <!--  <li><span><i class="fa fa-trash" aria-hidden="true"></i></span> </li>
+     <li><span><i class="fa fa-trash" aria-hidden="true"></i></span> </li>-->
   </ul>
 </div>
 <script type="text/javascript" src="assets/js/todo.js"></script>
